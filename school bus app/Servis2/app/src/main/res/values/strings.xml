@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Servis</string>
+    <string name="open_nav">Open Servis</string>
+    <string name="close_nav">Close Servis</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="169dp"
+        android:layout_height="32dp"
+        android:text="Ad:"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/input_name"
+        android:layout_width="169dp"
+        android:layout_height="32dp"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_below="@id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewSurnameLabel"
+        android:layout_width="169dp"
+        android:layout_height="32dp"
+        android:text="Soyad:"
+        android:textSize="20sp"
+        android:layout_below="@id/input_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/input_surname"
+        android:layout_width="169dp"
+        android:layout_height="32dp"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_below="@id/textViewSurnameLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewEmailLabel"
+        android:layout_width="169dp"
+        android:layout_height="32dp"
+        android:text="E-Posta:"
+        android:textSize="20sp"
+        android:layout_below="@id/input_surname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/input_mail"
+        android:layout_width="169dp"
+        android:layout_height="32dp"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_below="@id/textViewEmailLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewPhoneLabel"
+        android:layout_width="169dp"
+        android:layout_height="32dp"
+        android:text="Telefon no:"
+        android:textSize="20sp"
+        android:layout_below="@id/input_mail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/input_phone"
+        android:layout_width="169dp"
+        android:layout_height="32dp"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_below="@id/textViewPhoneLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewBirthdateLabel"
+        android:layout_width="169dp"
+        android:layout_height="32dp"
+        android:text="Doğum Tarihi:"
+        android:textSize="20sp"
+        android:layout_below="@id/input_phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/input_birthday"
+        android:layout_width="169dp"
+        android:layout_height="32dp"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_below="@id/textViewBirthdateLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+</RelativeLayout>
